@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css?family=Fredericka+the+Great&display=swap");
+html {
+  scroll-behavior: smooth; }
+
+body {
+  margin: 0px 0px;
+  font-family: fredericka the great,fantasy;
+  min-width: 320px;
+  background: #D3CCE3;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #E9E4F0, #D3CCE3);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #E9E4F0, #D3CCE3);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ }
+
+header {
+  width: 100%;
+  height: 500px;
+  background-image: url(../img/header_background.jpg);
+  overflow: hidden; }
+  header .header_text {
+    font-family: AR DESTINE;
+    color: #fff;
+    font-size: 50px;
+    padding-top: 0.5%; }
+  header .menu-item {
+    padding-top: 1%; }
+    header .menu-item a {
+      font-family: fredericka the great, fantasy;
+      font-size: 35px;
+      color: #fff; }
+  header .menu-item a:hover {
+    color: #fff;
+    cursor: pointer; }
+  header .head-title {
+    font-family: AR DESTINE;
+    color: #fff;
+    font-size: 80px;
+    margin-top: 7%; }
+  header .horizontal-line {
+    width: 100px;
+    height: 5px;
+    background: #fff;
+    margin-left: 45%; }
+  header .second-title {
+    font-family: Calibri Light;
+    color: #fff;
+    font-size: 35px; }
+
+.wrapper {
+  width: 1000px;
+  margin: 0 auto; }
+
+a {
+  text-decoration: none; }
+
+footer {
+  width: 100%;
+  height: 200px;
+  background-image: url(../img/header_background.jpg);
+  overflow: hidden; }
+  footer .footer_text {
+    font-family: AR DESTINE;
+    color: #fff;
+    font-size: 50px;
+    padding-top: 0.5%; }
+
+.bottom {
+  padding-top: 1%; }
+
+.bottom-margin {
+  padding-top: 1.5%; }
+
+.facebook-icon i, .insta-icon i, .tlg-icon i, .lkd-icon i, .git-icon i, .google-icon i {
+  font-size: 45px;
+  color: #fff; }
+
+.facebook-icon i:hover, .insta-icon i:hover, .tlg-icon i:hover, .lkd-icon i:hover, .git-icon i:hover, .google-icon i:hover {
+  color: #708090; }
+
+.foot-line {
+  font-family: Bahnschrift;
+  font-size: 20px;
+  color: #fff; }
+
+.dropdown-menu-main {
+  display: none; }
+
+.link-to-up {
+  font-size: 70px;
+  color: #BDBDBD;
+  position: fixed;
+  margin-left: 1400px;
+  top: 90%;
+  margin-bottom: 50px; }
+
+.link-to-up:hover {
+  color: black;
+  cursor: pointer; }
+
+/*# sourceMappingURL=style.css.map */

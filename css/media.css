@@ -1,0 +1,51 @@
+@media only screen and (max-width:426px){
+    /*------------------------------ Header ------------------------------*/
+    .menu-item{
+       display:none;
+   }
+    header .header_text{
+        font-size:35px;
+    }
+    .dropdown-menu-main{
+        width:70px;
+        display:inline-block;
+    }
+    .dropdown-menu{
+        width:425px;
+        height:330px;
+        font-size:50px;
+        font-family: fredericka the great, fantasy;
+    }
+    #left_margin{
+        margin-left:35%;
+    }
+/*------------------------------ Footer ------------------------------*/
+    footer{
+        height: 480px;
+    }
+    /*------------------------------ Footer ------------------------------*/
+}
+/*------------------------------ Header ------------------------------*/
+@media only screen and (max-width:376px){
+
+    .dropdown-menu{
+        width:375px;
+        height:330px;
+
+    }
+}
+@media only screen and (max-width:321px){
+
+    .dropdown-menu{
+        width:320px;
+        height:330px;
+
+    }
+}
+@media only screen and (min-width:375px) and (max-width: 426px){
+    .dropdown-menu-main{
+        margin-left:20%;
+    }
+
+
+}
