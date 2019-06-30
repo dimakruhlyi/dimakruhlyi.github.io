@@ -1,4 +1,4 @@
-@media only screen and (max-width:426px){
+@media only screen and (max-width:767px){
     /*------------------------------ Header ------------------------------*/
     .menu-item{
        display:none;
@@ -24,6 +24,19 @@
         height: 480px;
     }
     /*------------------------------ Footer ------------------------------*/
+}
+@media only screen and (min-width:427px)  and (max-width:767px){
+    .dropdown-menu-main{
+        float:inherit;
+        position:fixed;
+        top:10px;
+        left:70%;
+    }
+    .dropdown-menu{
+        width:550px;
+        height:330px;
+
+    }
 }
 /*------------------------------ Header ------------------------------*/
 @media only screen and (max-width:376px){
