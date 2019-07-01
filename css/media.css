@@ -74,5 +74,11 @@
         margin-left:20%;
     }
 
+}
+@media only screen and (min-width:993px){
 
+    .text-me{
+       margin-left:-15%;
+
+    }
 }

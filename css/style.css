@@ -97,4 +97,21 @@ footer {
   color: black;
   cursor: pointer; }
 
+.zagl {
+  margin-top: 30px;
+  font-family: Algerian, Calibri;
+  font-size: 45px; }
+
+.about-me {
+  margin-top: 20px; }
+
+.photo-me img {
+  border: 3px solid black;
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75); }
+
+.text-me {
+  border: 1px solid black; }
+
 /*# sourceMappingURL=style.css.map */
