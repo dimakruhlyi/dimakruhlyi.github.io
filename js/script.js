@@ -1,21 +1,26 @@
 //----------------------------------------------------- SCROLL -----------------------------
-$(function(){
-    $('a[href^="#"]').on('click', function(event) {
-        // отменяем стандартное действие
-        event.preventDefault();
+$(document).ready(function(){
+    // Add smooth scrolling to all links
+    $("a").on('click', function(event) {
 
-        var sc = $(this).attr("href"),
-            dn = $(sc).offset().top;
-        /*
-        * sc - в переменную заносим информацию о том, к какому блоку надо перейти
-        * dn - определяем положение блока на странице
-        */
+        // Make sure this.hash has a value before overriding default behavior
+        if (this.hash !== "") {
+            // Prevent default anchor click behavior
+            event.preventDefault();
 
-        $('html, body').animate({scrollTop: dn}, 1000);
+            // Store hash
+            var hash = this.hash;
 
-        /*
-        * 1000 скорость перехода в миллисекундах
-        */
+            // Using jQuery's animate() method to add smooth page scroll
+            // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+            $('html, body').animate({
+                scrollTop: $(hash).offset().top
+            }, 800, function(){
+
+                // Add hash (#) to URL when done scrolling (default click behavior)
+                window.location.hash = hash;
+            });
+        } // End if
     });
 });
 //----------------------------------------------------- NAV MENU -----------------------------

@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Fredericka+the+Great&display=swap");
-html {
-  scroll-behavior: smooth; }
-
+/*html{
+  scroll-behavior: smooth;
+}*/
 body {
   margin: 0px 0px;
   font-family: fredericka the great,fantasy;
@@ -90,9 +90,8 @@ footer {
   font-size: 70px;
   color: #BDBDBD;
   position: fixed;
-  margin-left: 1400px;
-  top: 90%;
-  margin-bottom: 50px; }
+  margin-left: 90%;
+  top: 85%; }
 
 .link-to-up:hover {
   color: black;

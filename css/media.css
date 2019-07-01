@@ -1,4 +1,4 @@
-@media only screen and (max-width:767px){
+@media only screen and (max-width:768px){
     /*------------------------------ Header ------------------------------*/
     .menu-item{
        display:none;
@@ -19,24 +19,38 @@
     #left_margin{
         margin-left:35%;
     }
+    .link-to-up{
+        font-size:70px;
+        color:#BDBDBD;
+        position:fixed;
+        margin-left:80%;
+        top:85%;
+
+    }
 /*------------------------------ Footer ------------------------------*/
     footer{
         height: 480px;
     }
     /*------------------------------ Footer ------------------------------*/
 }
-@media only screen and (min-width:427px)  and (max-width:767px){
+@media only screen and (min-width:743px)  and (max-width:767px) {
     .dropdown-menu-main{
-        float:inherit;
-        position:fixed;
-        top:10px;
-        left:70%;
+        top:5px;
+        left:400px;
     }
-    .dropdown-menu{
-        width:425px;
-        height:330px;
+}
+@media only screen and (min-width:427px)  and (max-width:767px){
 
+
+
+
+
+}
+@media only screen and (min-width:576px)  and (max-width:768px){
+    footer{
+        height: 200px;
     }
+
 }
 /*------------------------------ Header ------------------------------*/
 @media only screen and (max-width:376px){
