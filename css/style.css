@@ -19,21 +19,21 @@ header {
   background-image: url(../img/header_background.jpg);
   overflow: hidden; }
   header .header_text {
-    font-family: AR DESTINE;
+    font-family: AR DESTINE, 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     color: #fff;
     font-size: 50px;
     padding-top: 0.5%; }
   header .menu-item {
     padding-top: 1%; }
     header .menu-item a {
-      font-family: fredericka the great, fantasy;
+      font-family: fredericka the great, fantasy,'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
       font-size: 35px;
       color: #fff; }
   header .menu-item a:hover {
     color: #fff;
     cursor: pointer; }
   header .head-title {
-    font-family: AR DESTINE;
+    font-family: AR DESTINE, 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     color: #fff;
     font-size: 80px;
     margin-top: 7%; }
@@ -60,7 +60,7 @@ footer {
   background-image: url(../img/header_background.jpg);
   overflow: hidden; }
   footer .footer_text {
-    font-family: AR DESTINE;
+    font-family: AR DESTINE,'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     color: #fff;
     font-size: 50px;
     padding-top: 0.5%; }
