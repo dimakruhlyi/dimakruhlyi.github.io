@@ -3,12 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="8b66178f-4b92-4148-9ef9-c77dc1327f73" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/.sass-cache/1fa4fd59373df944d8222a9971887aa3c2584875/input.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/css/.sass-cache/1fa4fd59373df944d8222a9971887aa3c2584875/input.scssc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/input.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/input.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/media.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/media.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -20,13 +15,13 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.59592795">
+    <splitter split-orientation="horizontal" split-proportion="0.52858263">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="302">
+                <state relative-caret-position="47">
                   <caret line="66" column="45" lean-forward="true" selection-start-line="66" selection-start-column="45" selection-end-line="66" selection-end-column="45" />
                   <folding>
                     <element signature="n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
@@ -54,16 +49,16 @@
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/css/input.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="318">
-                  <caret line="120" column="10" selection-start-line="120" selection-start-column="10" selection-end-line="120" selection-end-column="10" />
+                <state relative-caret-position="114">
+                  <caret line="108" column="5" lean-forward="true" selection-start-line="108" selection-start-column="5" selection-end-line="108" selection-end-column="5" />
                 </state>
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/css/media.css">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="185">
@@ -93,9 +88,9 @@
       <list>
         <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/js/script.js" />
-        <option value="$PROJECT_DIR$/css/input.scss" />
         <option value="$PROJECT_DIR$/css/media.css" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/css/input.scss" />
       </list>
     </option>
   </component>
@@ -173,7 +168,8 @@
       <option name="presentableId" value="Default" />
       <updated>1561890866697</updated>
       <workItem from="1561890867872" duration="32862000" />
-      <workItem from="1562006558658" duration="7432000" />
+      <workItem from="1562006558658" duration="7657000" />
+      <workItem from="1562180183465" duration="287000" />
     </task>
     <task id="LOCAL-00001" summary="Start creating site-portfolio">
       <created>1561930521474</created>
@@ -210,14 +206,29 @@
       <option name="project" value="LOCAL" />
       <updated>1562009944147</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="start adding information about">
+      <created>1562014854245</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1562014854245</updated>
+    </task>
+    <task id="LOCAL-00007" summary="start adding information about">
+      <created>1562014895531</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1562014895531</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40294000" />
+    <option name="totallyTimeSpent" value="40806000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1559815" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -230,8 +241,8 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="8" visible="true" weight="0.3243626" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.29320112" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.3243626" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.2917847" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -266,13 +277,28 @@
         </entry>
       </map>
     </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Start creating site-portfolio" />
     <MESSAGE value="added adaptive menu" />
     <MESSAGE value="corrected code&#10;- smooth scroll&#10;- corrected nav menu&#10;- corrected fa &amp; footer" />
     <MESSAGE value="corrected fa &amp; footer" />
-    <option name="LAST_COMMIT_MESSAGE" value="corrected fa &amp; footer" />
+    <MESSAGE value="start adding information about" />
+    <option name="LAST_COMMIT_MESSAGE" value="start adding information about" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/img/iconified/iconifier-readme.txt">
@@ -288,13 +314,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/input.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="120" column="10" selection-start-line="120" selection-start-column="10" selection-end-line="120" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/media.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="185">
@@ -304,12 +323,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
+        <state relative-caret-position="47">
           <caret line="66" column="45" lean-forward="true" selection-start-line="66" selection-start-column="45" selection-end-line="66" selection-end-column="45" />
           <folding>
             <element signature="n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#style#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/input.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="108" column="5" lean-forward="true" selection-start-line="108" selection-start-column="5" selection-end-line="108" selection-end-column="5" />
         </state>
       </provider>
     </entry>
