@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Fredericka+the+Great&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Alfa+Slab+One&display=swap");
 /*html{
   scroll-behavior: smooth;
 }*/
@@ -19,7 +20,7 @@ header {
   background-image: url(../img/header_background.jpg);
   overflow: hidden; }
   header .header_text {
-    font-family: AR DESTINE, 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: AR DESTINE, "Alfa Slab One", Helvetica, sans-serif;
     color: #fff;
     font-size: 50px;
     padding-top: 0.5%; }
@@ -33,7 +34,7 @@ header {
     color: #fff;
     cursor: pointer; }
   header .head-title {
-    font-family: AR DESTINE, 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: AR DESTINE, "Alfa Slab One", Helvetica, sans-serif;
     color: #fff;
     font-size: 80px;
     margin-top: 7%; }
@@ -60,7 +61,7 @@ footer {
   background-image: url(../img/header_background.jpg);
   overflow: hidden; }
   footer .footer_text {
-    font-family: AR DESTINE,'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: AR DESTINE,"Alfa Slab One", Helvetica, sans-serif;
     color: #fff;
     font-size: 50px;
     padding-top: 0.5%; }
@@ -91,7 +92,8 @@ footer {
   color: #BDBDBD;
   position: fixed;
   margin-left: 90%;
-  top: 85%; }
+  top: 85%;
+  z-index: 1; }
 
 .link-to-up:hover {
   color: #f00;
@@ -100,7 +102,8 @@ footer {
 .zagl {
   margin-top: 30px;
   font-family: Algerian, Calibri;
-  font-size: 45px; }
+  font-size: 45px;
+  text-shadow: 5px 1px 4px #fff; }
 
 .about-me {
   margin-top: 20px; }
@@ -111,7 +114,15 @@ footer {
   -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
   box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75); }
 
+.text-me h3 {
+  font-family: "Alfa Slab One", Helvetica, sans-serif;
+  padding-top: 20px; }
+
 .text-me {
   border: 1px solid black; }
+
+.photo-me img {
+  width: 100%;
+  height: 600px; }
 
 /*# sourceMappingURL=style.css.map */
