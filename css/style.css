@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Fredericka+the+Great&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Alfa+Slab+One&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Barriecito&display=swap");
 /*html{
   scroll-behavior: smooth;
 }*/
@@ -101,7 +102,7 @@ footer {
 
 .zagl {
   margin-top: 30px;
-  font-family: Algerian, Calibri;
+  font-family: Algerian, Barriecito, Calibri;
   font-size: 45px;
   text-shadow: 5px 1px 4px #fff; }
 
@@ -124,5 +125,15 @@ footer {
 .photo-me img {
   width: 100%;
   height: 600px; }
+
+.text-me {
+  text-align: justify; }
+  .text-me .description {
+    font-family: fredericka the great, fantasy,'Open Sans', 'Helvetica Neue', Barriecito, Calibri;
+    font-size: 20px;
+    color: #000; }
+  .text-me h3 {
+    font-family: fredericka the great, fantasy,'Open Sans', 'Helvetica Neue', Barriecito, Calibri;
+    font-weight: bold; }
 
 /*# sourceMappingURL=style.css.map */
