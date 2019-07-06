@@ -93,3 +93,11 @@
     }
     
 }
+@media only screen and (min-width:426px) and (max-width: 743px) {
+    .dropdown-menu{
+        width:320px;
+        height:330px;
+        margin-left:0px;
+    }
+
+}
