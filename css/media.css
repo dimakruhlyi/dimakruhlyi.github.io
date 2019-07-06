@@ -15,6 +15,7 @@
         height:330px;
         font-size:50px;
         font-family: fredericka the great, fantasy;
+        margin-left:-250px;
     }
     #left_margin{
         margin-left:35%;
@@ -39,11 +40,14 @@
         left:400px;
     }
 }
-@media only screen and (min-width:427px)  and (max-width:767px){
+@media only screen and (min-width:767px)  and (max-width:1023px){
 
 
 
+    .dropdown-menu{
+       margin-left:5px;
 
+    }
 
 }
 @media only screen and (min-width:576px)  and (max-width:768px){
@@ -66,12 +70,12 @@
     .dropdown-menu{
         width:320px;
         height:330px;
-
+        margin-left:-200px;
     }
 }
 @media only screen and (min-width:375px) and (max-width: 426px){
     .dropdown-menu-main{
-        margin-left:20%;
+        margin-left:15%;
     }
 
 }
