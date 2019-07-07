@@ -117,7 +117,7 @@ footer{
   margin-top:30px;
   font-family: Algerian, Barriecito, Calibri;
   font-size:45px;
-  text-shadow: 5px 1px 4px #fff;
+  text-shadow: 5px 1px 4px #000;
 }
 .about-me{
   margin-top:20px;
@@ -208,4 +208,58 @@ footer{
 //--------------------------------------------------------------------------------------------------------
 .just-list{
   color:rgb(0,0,0);
+}
+.quote-summary {
+  background: #000;
+  .quote {
+    font-family: fredericka the great, fantasy, 'Open Sans', 'Helvetica Neue', Barriecito, Calibri;
+    font-weight: bold;
+    font-size: 29px;
+    color: #fff;
+  }
+}
+.portfolio{
+  background:#000;
+  padding-top:30px;
+  .zagl-2 {
+    font-family: Algerian, Barriecito, Calibri;
+    font-size:45px;
+    text-shadow: 5px 1px 4px #fff;
+    color:#fff;
+  }
+  .port-bckg {
+      background:#DCDCDC;
+     img{
+      padding-top:20px;
+    }
+    .block-element{
+      width:400px;
+      height:450px;
+      padding:10px;
+      font-family: fredericka the great, fantasy, 'Open Sans', 'Helvetica Neue', Barriecito, Calibri;
+      font-weight: bold;
+      font-size: 20px;
+      color: #000;
+      .invest-button{
+        height: 40px;
+        width:150px;
+        border:3px solid black;
+        margin:0 auto;
+        border-radius:50px;
+      }
+      .invest-button:hover{
+        cursor: pointer;
+        background: #ff0;
+      }
+      a{
+        text-decoration: none;
+        color:#000;
+      }
+    }
+    .block-element:hover{
+      -webkit-box-shadow: 9px 9px 22px 0px rgba(0,0,0,0.75);
+      -moz-box-shadow: 9px 9px 22px 0px rgba(0,0,0,0.75);
+      box-shadow: 9px 9px 22px 0px rgba(0,0,0,0.75);
+    }
+  }
 }

@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>SnapFixx</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media/media.css">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.0.min.js"></script>
+
+    <script type="text/javascript">
+
+        $(function(){
+            $('a[href^="#"]').on('click', function(event) {
+                // отменяем стандартное действие
+                event.preventDefault();
+
+                var sc = $(this).attr("href"),
+                    dn = $(sc).offset().top;
+                /*
+                * sc - в переменную заносим информацию о том, к какому блоку надо перейти
+                * dn - определяем положение блока на странице
+                */
+
+                $('html, body').animate({scrollTop: dn}, 1000);
+
+                /*
+                * 1000 скорость перехода в миллисекундах
+                */
+            });
+        });
+    </script>
+</head>
+<body>
+    <header>
+        <nav><div class="navigation">
+            <div class="logo">
+               <b><a href="#">SNAPFIXX</a> </b> 
+            </div>
+            <div class="nav_panel">
+                    <div class="welcome"><b><a href="#">WELCOME </a></b></div>
+                    <div class="works"><b><a href="#">HOW IT WORKS </a></b></div>
+                    <div class="contacts"><b><a href="#">CONTACTS</a></b></div>
+            </div>
+        </div></nav>
+
+        <div class="content">
+            <div class="large_text"><b> &nbsp;&nbsp;&nbsp; DO YOU HAVE A <br>
+                    LARGE FOLLOWING?</b></div>
+            <div class="button1"><div class="inner-button"><a href="#"> LEARN MORE</a></div></div>
+        </div>
+    </header>
+    <div class="start-now">
+        <div class="arrow1"><div class="arrow1-inner"><a href="#start" target="_self"><img src="img/arrow1.png" width="35px" height="20px"  alt=""></a></div></div>  
+        <div class="start-now-inner">
+            <div class="large-text-2" id="start">DO YOU WANT START NOW?</div>
+            <div class="middle-text-2">Fast downloads can help you!</div>
+            <div class="download-button-2" ><div class="download-button-2-inner"> &nbsp&nbsp<img src="img/icon-download.png" alt="download">&nbsp DOWNLOAD NOW</div></div>
+        </div>
+    </div>
+
+    <div class="we-do">
+        <div class="first-part">
+            <div class="large-text-3">WHAT WE DO?</div>
+            <div class="middle-text-3"><span class="what"><b>WHAT&nbsp </b></span><span class="we-do-2">WE DO?</span></div>
+            <div class="description"><span class="description-first">SNAPFLIXX allows influential social media 
+                icons to monetize from their Snapchat stories. </span><br><br> 
+                <span class="description-second">If you have a private account we create and manage
+                    a paid membership account for your followers who 
+                    want access to your exclusive stories.</span></div>
+            <div class="lear-more-button"><div class="lear-more-button-inner"><a href="#">LEARN MORE</a> </div> </div>
+        </div>
+        <div class="second-part">
+            <div class="second-part-image"><img src="img/photo1.png" width="100%" alt=""></div>
+        </div>
+    </div>
+
+    <div class="information">
+        <div class="block-1">
+            <div class="block-1-img"><img src="img/block1-ico.png" alt="ICO1"></div>
+            <div class="block-1-text">Sign up free your Email, 
+                Name and Phone number</div>
+        </div>
+        <div class="block-2">
+            <div class="block-2-img"><img src="img/block2-ico.png" alt="ICO2"></div>
+            <div class="block-2-text">  Let us do the work. We create a link 
+                for your followers to purchase a monthly 
+                     membership to view your private 
+                                Snapchat account</div>
+        </div>
+        <div class="block-3">
+            <div class="block-3-img"><img src="img/block3-ico.png" alt="ICO3"></div>
+            <div class="block-3-text">   We give you Snapchat usernames of
+                your followers who purchased a monthly
+                  SnapFlixx membership with you. Add 
+                   them on Snapchat so they can view
+                            your exclusive stories.</div>
+        </div>
+        <div class="block-4">
+            <div class="block-4-img"><img src="img/block4-ico.png" alt="ICO4"></div>
+            <div class="block-4-text">We send your 
+                monthly earnings</div>
+        </div>
+    </div>
+    <div class="white-line"></div>
+    <div class="grey-line"></div>
+    <div class="blue-block">
+        <div class="images"><img src="img/mockup-iphone.png" alt="Screen & Iphone"></div>
+        <div class="join">JOIN US!</div>
+        <div class="offering">
+            <div class="offering-1"><b>MORE THAN 1000 USERS</b> <br>  Already with us! </div>
+            <div class="offering-2"><b> СONVENIENT SERVICE</b><br> For you and your customers  </div>
+            <div class="offering-3"><b>IT WORKS ON ALL PLATFORMS </b><br>IOS, Android, Windows  </div>
+        </div>
+    </div>
+    <div class="quotes">
+        <div class="large-text-4">TESTIMONIALS</div>
+        <div class="middle-text-4"><span class="what">WHAT </span> <span class="people-say">People Say</span></div>
+        <div class="quote-1-upper"><div class="arrow-left"><img src="img/arrow-left.png" alt="Arrow Left"></div><div class="quote-1"> <div class="quote-1-inner-text">‘‘<br> I fell in love with the service from the first use of it!  I very happy with it and I advise everyone to take 
+            advantage of them! <br> ’’</div>
+            </div><div class="arrow-right"><img src="img/arrow-right.png" alt="Arrow Right"></div></div> 
+        <div class="author"><div class="author-inner"><img src="img/mary.png" alt="Mary Smith"><div class="author-inner-text">Mary Smith, artist</div></div>  </div>
+    </div>
+    <footer>
+        <div class="footer-block">
+            <div class="logo2">
+                <b><a href="#">SNAPFIXX</a> </b> 
+             </div>
+             <div class="footer-block-inner-1">
+                 <div class="privacy">PRIVACY POLICY &nbsp TERMS & CONDITIONS   &nbsp   SUPPORT</div>
+                <div class="copy"><b>SNAPFIXX 2019 &copy All Right Reserved</b> </div>
+            </div>
+            <div class="footer-block-inner-2">
+                <div class="e-mail">infosnapfixx@.com</div>
+                <div class="phone">213-4321-221</div>
+                <div class="made"><span>Made by Dima Kruhlyi</span></div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
