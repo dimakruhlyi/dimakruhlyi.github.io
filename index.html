@@ -69,35 +69,34 @@
             <span class="description"><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis doloribus et fuga natus neque praesentium? Ab, aspernatur dignissimos eaque, est harum hic illo labore maxime nostrum qui quia, saepe totam.
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis doloribus et fuga natus neque praesentium? Ab, aspernatur dignissimos eaque, est harum hic illo labore maxime nostrum qui quia, saepe totam.
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis doloribus et fuga natus neque praesentium? Ab, aspernatur dignissimos eaque, est harum hic illo labore maxime nostrum qui quia, saepe totam.</span></span>
-            <br> <button style="background:black;" type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal" data-myvalue="trouducul" data-myvar="bisbis">
-                Launch demo modal 1
+            <br> <button id="button-send"  type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal" data-myvalue="trouducul" data-myvar="bisbis">
+                SEND MSG TO E-MAIL
             </button>
         </div>
         <!-- Modal -->
-        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-            <div class="modal-dialog" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
+        <div class="modal fade " id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog " role="document">
+                <div class="modal-content modal-window">
+                    <div class="modal-header" >
+                        <h4 class="modal-title" id="myModalLabel">Your opinion is:</h4>
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                        <h4 class="modal-title" id="myModalLabel" align="center">Send message</h4>
                     </div>
-                    <div class="modal-body">
-                        <span id="modal-myvalue"></span> <span id="modal-myvar"> Some text</span>
+                    <div class="modal-body" align="center">
 
                         <form action="mailto:dimakruhly@gmail.com" type="post" enctype="text/plain">
-                            <label for="subj">Your name:</label><br />
-                            <input type="text" id="subj" name="Subject" /><br /><br />
+                            <label for="subj" class="text-form">Your name:*</label><br />
+                            <input type="text" id="subj" name="Subject" required placeholder="Name..."/><br />
 
-                            <label for="body">Message:</label><br />
-                            <textarea id="body" name="Body" rows="5" colls="20"></textarea><br /><br />
+                            <label for="body" class="text-form">Message:*</label><br />
+                            <textarea id="body" name="Body" rows="5" colls="35" required placeholder="Your wish..."></textarea><br /><br />
 
-                            <input type="submit" value="Send" />
+                            <input type="submit" class="submit" value="Submit" />
                         </form>
-                        <span id="modal-bb"></span>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-
+                        <div class="modal-footer">
+                            <p class="text-form-2">I wanted to implement sending a message from the form to the telegram, but Github Page did not allow me to do this &#x1F61E;
+                                <br>
+                                You can see this implementation <a href="https://github.com/dimakruhlyi/Msg-to-telegram-from-HTML-form" target="_blank">HERE</a></p>
+                        </div>
                     </div>
                 </div>
             </div>

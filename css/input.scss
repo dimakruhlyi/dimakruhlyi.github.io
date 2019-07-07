@@ -154,3 +154,55 @@ footer{
     font-weight: bold;
   }
 }
+//----------------------------------------------------- MODAL FORM -----------------------------
+.modal-window{
+  background: -webkit-linear-gradient(to right, #E9E4F0, #D3CCE3);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #E9E4F0, #D3CCE3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  h4{
+    font-family: "Alfa Slab One", Helvetica, sans-serif;
+  }
+  .submit{
+    width: 100px;
+    height: 50px;
+    font-size: 20px;
+    font-family: "ALGERIAN", "Alfa Slab One", Helvetica, sans-serif;;
+    border: 3px solid black;
+    border-radius: 5px;
+  }
+  .submit:hover{
+    background:black;
+    color:white;
+  }
+  .text-form{
+    font-family: fredericka the great, fantasy,'Open Sans', 'Helvetica Neue', Barriecito, Calibri;
+    font-weight: bold;
+    font-size:25px;
+  }
+  .text-form-2{
+    font-family: fredericka the great, fantasy,'Open Sans', 'Helvetica Neue', Barriecito, Calibri;
+    font-weight: bold;
+    font-size:18px;
+    text-align: justify;
+  }
+  #body, #subj{
+    border:2px solid black;
+  }
+}
+#button-send{
+  color:black;
+  margin-left:25%;
+  margin-top:10px;
+  font-family: fredericka the great, fantasy,'Open Sans', 'Helvetica Neue', Barriecito, Calibri;
+  font-weight: bold;
+  border:3px solid black;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  border-radius: 50px;
+  background: -webkit-linear-gradient(to right, #E9E4F0, #D3CCE3);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #E9E4F0, #D3CCE3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+#button-send:hover{
+  background:black;
+  color:white;
+}
+//--------------------------------------------------------------------------------------------------------
