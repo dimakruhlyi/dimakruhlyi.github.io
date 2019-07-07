@@ -126,7 +126,8 @@ footer {
   height: 600px; }
 
 .text-me {
-  text-align: justify; }
+  text-align: justify;
+  padding: 10px; }
   .text-me .description {
     font-family: fredericka the great, fantasy,'Open Sans', 'Helvetica Neue', Barriecito, Calibri;
     font-size: 20px;
@@ -166,7 +167,6 @@ footer {
 
 #button-send {
   color: black;
-  margin-left: 25%;
   margin-top: 10px;
   font-family: fredericka the great, fantasy,'Open Sans', 'Helvetica Neue', Barriecito, Calibri;
   font-weight: bold;
