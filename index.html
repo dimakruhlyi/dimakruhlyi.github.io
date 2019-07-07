@@ -82,7 +82,31 @@
                         <h4 class="modal-title" id="myModalLabel" align="center">Send message</h4>
                     </div>
                     <div class="modal-body">
-                        <span id="modal-myvalue"></span> <span id="modal-myvar"> Some text</span> <span id="modal-bb"></span>
+                        <span id="modal-myvalue"></span> <span id="modal-myvar"> Some text</span>
+                        <form action="backend/form.php">
+
+                            Name:<br>
+
+                            <input type="text" name="name" placeholder="Your Name">
+
+                            <br>
+                            Mobile number:
+                            <input type="text" id="phone" name="phone" minlength="3" maxlength="15"  size="15">
+                            <br>
+
+                            Message:<br>
+
+                            <textarea name="message" placeholder="Your Message Here" rows="6" cols="33"></textarea>
+
+                            <br><br>
+
+                            <input type="submit" value="Submit">
+
+                        </form>
+
+
+
+                        <span id="modal-bb"></span>
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
