@@ -133,20 +133,20 @@ footer{
   font-family: "Alfa Slab One", Helvetica, sans-serif;
   padding-top:20px;
 }
-.text-me{
+/*.text-me{
   border:1px solid black;
-}
+}*/
 .photo-me img{
   width:100%;
   height:600px;
 }
 .text-me{
     text-align:justify;
-     padding:10px;
+     padding:5px;
     .description{
     font-family: fredericka the great, fantasy,'Open Sans', 'Helvetica Neue', Barriecito, Calibri;
       //font-family: Oswald, Helvetica, sans-serif !important;
-      //font-weight: bold;
+      font-weight: bold;
       font-size:20px;
       color:#000;
     }
@@ -163,7 +163,7 @@ footer{
     font-family: "Alfa Slab One", Helvetica, sans-serif;
   }
   .submit{
-    width: 100px;
+    width: 150px;
     height: 50px;
     font-size: 20px;
     font-family: "ALGERIAN", "Alfa Slab One", Helvetica, sans-serif;;
@@ -192,7 +192,6 @@ footer{
 #button-send{
   color:black;
 
-  margin-top:10px;
   font-family: fredericka the great, fantasy,'Open Sans', 'Helvetica Neue', Barriecito, Calibri;
   font-weight: bold;
   border:3px solid black;
@@ -207,3 +206,6 @@ footer{
   color:white;
 }
 //--------------------------------------------------------------------------------------------------------
+.just-list{
+  color:rgb(0,0,0);
+}
