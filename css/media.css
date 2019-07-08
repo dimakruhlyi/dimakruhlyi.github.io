@@ -112,7 +112,7 @@
 
 }
 @media only screen and (min-width:575px) and (max-width: 992px) {
-    #block-black, #block-black-2{
+    #block-black, #block-black-2,#block-black-3,#block-black-4{
        background: #000;
     }
 
