@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+	<meta charset="utf-8">
+
+	<title>Cafe Rhino</title>
+	<meta name="description" content="">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+
+	<!-- Chrome, Firefox OS and Opera -->
+	<meta name="theme-color" content="#000">
+	<!-- Windows Phone -->
+	<meta name="msapplication-navbutton-color" content="#000">
+	<!-- iOS Safari -->
+	<meta name="apple-mobile-web-app-status-bar-style" content="#000">
+
+	<style>
+		body {
+			opacity: 0;
+			overflow-x: hidden;
+		}
+
+		html {
+			background-color: rgb(255, 255, 255);
+		}
+	</style>
+
+</head>
+
+<body>
+	<div class="header">
+		<div class="m_menu">
+			<ul>
+				<li>Menu</li>
+				<li>Contacts</li>
+			</ul>
+		</div>
+		<div class="logo"><img src="img/logo.png" alt="logo"></div>
+		<div class="b_adress">
+			<ul>
+				<li>Monday-Friday 10-23 | Today is: 
+					<script>
+					var d = new Date();
+
+					var month = d.getMonth()+1;
+					var day = d.getDate();
+					
+					var output = d.getFullYear() + '/' +
+						(month<10 ? '0' : '') + month + '/' +
+						(day<10 ? '0' : '') + day;
+					document.write(output);
+					</script> </li>
+		
+			</ul>
+		</div>
+		<div id="menu_con" class="menu_content">
+			<div class="menu_menu">
+				<div class="menu_top">
+					<h2>First</h2>
+					<div id="close" class="close"><i class="fa fa-times" aria-hidden="true"></i></div>
+				</div>
+				<ul>
+					<li> Tomato Soup </li>
+					<li> Chicken Salad  </li>
+					<li> Sandwich </li>
+				</ul>
+				<div class="menu_top">
+					<h2>Second</h2>
+				</div>
+				<ul>
+					<li> Grilled fish and potatoes  </li>
+					<li> Italian pizza  </li>
+					<li> Vegetarian pizza   </li>
+					<li> Big Burger </li>
+					<li> Fried chicken and potatoes </li>
+				</ul>
+				<div class="menu_top">
+					<h2>Deserts</h2>
+				</div>
+				<ul>
+					<li> Fruit smoothie </li>
+					<li> Ice Cream  </li>
+					<li> Chocolate cake </li>
+					<li> Cheese</li>
+				</ul>
+			</div>
+		</div>
+		<div id="con" class="menu_content">
+			<div class="menu_menu mob">
+				<div class="menu_top">
+					<h2>Contacts</h2>
+					<div id="close2" class="close"><i class="fa fa-times" aria-hidden="true"></i></div>
+				</div>
+				<form action="#">
+					<ul>
+						<li><input type="text" required name="name" placeholder="Input name:"></li>
+						<li><input type="number" required name="people" placeholder="How many persons?"></li>
+						<li><input type="datetime-local" required name="date" placeholder="Date and time" value="2019-06-24T22:06"></li>
+						<li><input type="text" required name="message" placeholder="Message"></li>
+						<li><button type="submit">Send Message</button></li>
+					</ul>
+				</form>
+			</div>
+		</div>
+	</div>
+	<link rel="stylesheet" href="css/main.min.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<script async src="js/scripts.min.js"></script>
+</body>
+
+</html>
