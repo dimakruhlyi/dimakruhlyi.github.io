@@ -247,4 +247,20 @@ footer {
   .see-more a {
     color: #fff; }
 
+.download-summary {
+  background: #D3CCE3;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #E9E4F0, #D3CCE3);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #E9E4F0, #D3CCE3);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  height: 100px;
+  width: 100%; }
+  .download-summary .quote {
+    font-family: fredericka the great, fantasy, 'Open Sans', 'Helvetica Neue', Barriecito, Calibri;
+    font-weight: bold;
+    font-size: 29px;
+    margin-top: 20px;
+    color: #000; }
+
 /*# sourceMappingURL=style.css.map */
