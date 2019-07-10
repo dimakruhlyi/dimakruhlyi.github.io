@@ -16,6 +16,7 @@
     <link rel="apple-touch-icon" sizes="152x152" href="img/iconified/apple-touch-icon-152x152.png" />
     <link rel="apple-touch-icon" sizes="180x180" href="img/iconified/apple-touch-icon-180x180.png" />
 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Dima Kruhlyi</title>
     <link rel="stylesheet" href="css/style.css">
@@ -27,7 +28,11 @@
 -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src = "js/script.js"></script>
-
+    <script>
+        $(document).ready(function(){
+            $('.slider').bxSlider();
+        });
+    </script>
 </head>
 <body>
     <header>
@@ -115,57 +120,65 @@
         <div class="col-sm-12 text-center"><p class="quote"><i>Do what you can, with what you have, where you are. &copy Theodore Roosevelt</i></p></div>
         <br>
     </div>
-    <div class="row portfolio" id="portfolio">
-        <div class="col-sm-12 zagl-2 text-center">Portfolio</div>
-        <br>
+    <div class="col-sm-12 zagl-2 text-center">Portfolio</div>
 
-            <div class="col-md-2 col-sm-2"></div>
-            <div class="col-sm-8 col-md-7 col-lg-4 text-center port-bckg">
-                <div class="block-element">
-                    <img src="img/portfolio/webdesign.png" alt="WebDesign" width = "100%" height="300px"><br>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat perspiciatis quae quibusdam quidem ratione. Eveniet!
-                    <br>
+
+   <div class="slider" style="background: #000;">
+       <div class="row portfolio" id="portfolio">
+
+           <div class="col-md-2 col-sm-2"></div>
+           <div class="col-sm-8 col-md-7 col-lg-4 text-center port-bckg">
+               <div class="block-element">
+                   <img src="img/portfolio/webdesign.png" alt="WebDesign" width = "100%" height="300px"><br>
+                   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat perspiciatis quae quibusdam quidem ratione. Eveniet!
+                   <br>
                    <div class="invest-button "><a href="portfolio/webdesign/index.html" target="_blank">Investigate</a></div>
-                </div>
-                </div>
+               </div>
+           </div>
 
-            <div class="col-sm-2 col-lg-1 port-bckg" id="block-black"></div>
-            <div class="col-sm-2 col-lg-1 port-bckg" id="block-black-2"></div>
-            <div class="col-sm-8 col-md-7 col-lg-4  text-me port-bckg">
-                <div class="block-element">
-                    <img src="img/portfolio/snapfixx.png" alt="SNAPFIXX" width = "100%" height="300px"><br>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat perspiciatis quae quibusdam quidem ratione. Eveniet!
-                    <br>
-                    <div class="invest-button "><a href="portfolio/snapfixx/index.html" target="_blank">&nbsp;&nbsp;&nbsp;Investigate</a></div>
-                </div>
-            </div>
-    </div>
-
-
+           <div class="col-sm-2 col-lg-1 port-bckg" id="block-black"></div>
+           <div class="col-sm-2 col-lg-1 port-bckg" id="block-black-2"></div>
+           <div class="col-sm-8 col-md-7 col-lg-4  text-me port-bckg">
+               <div class="block-element">
+                   <img src="img/portfolio/snapfixx.png" alt="SNAPFIXX" width = "100%" height="300px"><br>
+                   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat perspiciatis quae quibusdam quidem ratione. Eveniet!
+                   <br>
+                   <div class="invest-button "><a href="portfolio/snapfixx/index.html" target="_blank">&nbsp;&nbsp;&nbsp;Investigate</a></div>
+               </div>
+           </div>
+       </div>
 
 
-    <div class="row portfolio bottom-row">
-    <div class="col-md-2 col-sm-2"></div>
-    <div class="col-sm-8 col-md-7 col-lg-4 text-center port-bckg">
-        <div class="block-element">
-            <img src="img/portfolio/#" alt="Mockup" width = "100%" height="300px"><br>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat perspiciatis quae quibusdam quidem ratione. Eveniet!
-            <br>
-            <div class="invest-button "><a href="portfolio/webdesign/index.html" target="_blank">Investigate</a></div>
-        </div>
-    </div>
+       <div class="row portfolio bottom-row">
+           <div class="col-md-2 col-sm-2"></div>
+           <div class="col-sm-8 col-md-7 col-lg-4 text-center port-bckg">
+               <div class="block-element">
+                   <img src="img/portfolio/#" alt="Mockup" width = "100%" height="300px"><br>
+                   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat perspiciatis quae quibusdam quidem ratione. Eveniet!
+                   <br>
+                   <div class="invest-button "><a href="portfolio/webdesign/index.html" target="_blank">Investigate</a></div>
+               </div>
+           </div>
 
-    <div class="col-sm-2 col-lg-1 port-bckg" id="block-black-3"></div>
-    <div class="col-sm-2 col-lg-1 port-bckg" id="block-black-4"></div>
-    <div class="col-sm-8 col-md-7 col-lg-4 text-center text-me port-bckg">
-        <div class="block-element">
-            <img src="img/portfolio/cafe_rhino.png" alt="Cafe Rhino" width = "100%" height="300px"><br>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat perspiciatis quae quibusdam quidem ratione. Eveniet!
-            <br>
-            <div class="invest-button "><a href="portfolio/cafe_rhino/index.html" target="_blank">&nbsp;&nbsp;&nbsp;Investigate</a></div>
-        </div>
-    </div>
-    </div>
+           <div class="col-sm-2 col-lg-1 port-bckg" id="block-black-3"></div>
+           <div class="col-sm-2 col-lg-1 port-bckg" id="block-black-4"></div>
+           <div class="col-sm-8 col-md-7 col-lg-4 text-center text-me port-bckg">
+               <div class="block-element">
+                   <img src="img/portfolio/cafe_rhino.png" alt="Cafe Rhino" width = "100%" height="300px"><br>
+                   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat perspiciatis quae quibusdam quidem ratione. Eveniet!
+                   <br>
+                   <div class="invest-button "><a href="portfolio/cafe_rhino/index.html" target="_blank">&nbsp;&nbsp;&nbsp;Investigate</a></div>
+               </div>
+           </div>
+       </div>
+
+   </div>
+
+
+
+
+
+
 
 
 
@@ -211,6 +224,9 @@
         </div>
     </footer>
 
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
