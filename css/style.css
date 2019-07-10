@@ -194,22 +194,14 @@ footer {
     font-size: 29px;
     color: #fff; }
 
-.zagl-2 {
-  font-family: Algerian, Barriecito, Calibri;
-  font-size: 45px;
-  text-shadow: 5px 1px 4px #fff;
-  color: #fff;
-  background: #000; }
-
 .portfolio {
   background: #000;
-  padding-top: 30px;
-  /*.zagl-2 {
+  padding-top: 30px; }
+  .portfolio .zagl-2 {
     font-family: Algerian, Barriecito, Calibri;
-    font-size:45px;
+    font-size: 45px;
     text-shadow: 5px 1px 4px #fff;
-    color:#fff;
-  }*/ }
+    color: #fff; }
   .portfolio .port-bckg {
     background: #DCDCDC; }
     .portfolio .port-bckg img {
