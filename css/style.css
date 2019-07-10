@@ -234,4 +234,17 @@ footer {
 .bottom-row {
   margin-top: -30px; }
 
+.see-more {
+  height: 100px;
+  width: 100%;
+  padding-top: 30px;
+  background: #000;
+  font-family: Barriecito, "Alfa Slab One", Helvetica, sans-serif;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 30px;
+  color: #fff; }
+  .see-more a {
+    color: #fff; }
+
 /*# sourceMappingURL=style.css.map */
