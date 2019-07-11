@@ -1,0 +1,730 @@
+$left_block_color: #01134E;
+$size_height: 744px;
+body{
+  margin-top:10px;
+  margin-left:100px;
+}
+ .block{
+  width: 1022px;
+  height: $size_height;
+  //border: 3px solid black;
+   background: #F9FAFC;
+   
+}
+ .block-inner{
+  width: 80px;
+   height: $size_height;
+   background: $left_block_color;
+   position: relative;
+   .image-upper .logo{
+     position: absolute;
+     top: 18px;
+     left: 23px;
+     right: 22px;
+     cursor: pointer;
+   }
+   .icon-3-upper .calendar{
+     position: absolute;
+     top:125px;
+     left: 30px;
+     right: 30px;
+     cursor: pointer;
+   }
+   .icon-3-upper .blue-ellipse{
+     position: absolute;
+     top:118px;
+     left: 41px;
+     right: 20px;
+     cursor: pointer;
+   }
+   .icon-3-upper .one{
+     position: absolute;
+     top:121px;
+     left: 47px;
+     right: 24px;
+     cursor: pointer;
+   }
+   .user-silhouette-2{
+     position: absolute;
+     top:196px;
+     left: 31px;
+     right: 31px;
+     cursor: pointer;
+   }
+    .group-1{
+      position: absolute;
+      top:265.07px;
+      left:30px;
+      right: 30px;
+      cursor: pointer;
+    }
+   .team-2{
+     position: absolute;
+     top:335.07px;
+     left:30px;
+     right: 30px;
+     cursor: pointer;
+   }
+   .envelope-2{
+     position: absolute;
+     top:405.4px;
+     left: 30px;
+     right: 30px;
+     cursor: pointer;
+   }
+   .rectangle-17{
+     position: absolute;
+     top:392px;
+     right: 76px;
+   }
+ }
+ .top-block{
+   position: relative;
+   height: 60px;
+   width: 944px;
+   margin-left: 80px;
+   background: #fff;
+   .top-block-left .sarah{
+     position: absolute;
+     top:22px;
+     left: 755px;
+     bottom:16.6px;
+     right: 165px;
+     cursor: pointer;
+   }
+   .top-block-left .text-sarah{
+     position: absolute;
+     top:23.69px;
+     left:788px;
+     bottom: 19.99px;
+     width: 99px;
+      span{
+        font-family: Calibri;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: normal;
+        line-height: 16px;
+        letter-spacing: 0.28px;
+        color:#252F48;
+      }
+   }
+  .top-block-left .arrow-down{
+    position: absolute;
+    top:32.33px;
+    left: 887.51px;
+    bottom:25.61px;
+    cursor: pointer;
+  }
+   @mixin top-block-text-features{
+     font-family: Calibri;
+     font-size: 13px;
+     font-style: normal;
+     font-weight: normal;
+     line-height: 15px;
+     letter-spacing: 0.685714px;
+     color:#252F48;
+     cursor: pointer;
+   }
+  .top-block-right .text-home{
+    position: absolute;
+    top:23px;
+    left:40px;
+    bottom: 19.68px;
+    span{
+      @include top-block-text-features();
+    }
+  }
+   .top-block-right .vector{
+     position: absolute;
+     top:30px;
+     left: 93px;
+     bottom: 22.49px;
+   }
+   .top-block-right .text-network{
+     width: 238px;
+     position: absolute;
+     top:23px;
+     left:111px;
+     bottom:19.68px;
+     span{
+       @include  top-block-text-features();
+     }
+   }
+ }
+ $width_dialogs: 300px;
+@mixin  coordinates_people_img{
+  left:21px;
+  right: 783px;
+}
+@mixin  coordinates_people_name{
+  left:85px;
+  right: 647px;
+}
+@mixin people_names_font{
+  font-family: Arial;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.571429px;
+  color: #01134E;
+}
+@mixin msg_text_font{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  /* or 129% */
+  color: #252F48;
+  mix-blend-mode: normal;
+  opacity: 0.43;
+}
+@mixin msg_text_size{
+  width:184px;
+  height: 35.49px;
+}
+@mixin msg_text_coordinates{
+  left:85px;
+  right: 585px;
+}
+@mixin time_font{
+  font-family: Calibri;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.428571px;
+  color: #9BA0AD;
+}
+@mixin time_coordinates{
+  left:262px;
+  right: 561px;
+}
+.conversations-block{
+   width: 854px;
+   height: 556px;
+   position: relative;
+   top:44.06px;
+   left: 122px;
+   right: 46px;
+   //border: 1px solid black;
+  display: inline-block;
+  background: #fff;
+   .left-people-block{
+     width: $width_dialogs;
+     border-right: 1px solid #EDF0F4;
+     //transform: rotate(90deg);
+     .grey-people{
+       height: 180.48px;
+       background:#F7F9FC;
+       .miranda-hops-img{
+         position: absolute;
+         top:19.29px;
+         bottom: 49px;
+         @include coordinates_people_img();
+       }
+       .miranda-hops-name{
+         position: absolute;
+         top:23.35px;
+         bottom: 136.85px;
+         @include coordinates_people_name();
+         @include people_names_font();
+       }
+       p{
+         @include msg_text_size();
+         @include msg_text_font();
+         @include msg_text_coordinates();
+       }
+       .msg-text{
+         position: absolute;
+         top:33.29px;
+         bottom: 96.7px;
+       }
+
+       .online{
+         position: absolute;
+         top:21.32px;
+         left:194px;
+         right: 100px;
+         bottom: 153.08px;
+       }
+       .without-colume{
+         position: absolute;
+         top:34.49px;
+         left: 207px;
+         right: 85px;
+         bottom: 140.99px;
+       }
+       .time-first{
+         @include time_font();
+         @include time_coordinates();
+         position: absolute;
+         top:10.49px;
+         bottom:154.99px;
+       }
+       .barry-img{
+         @include coordinates_people_img();
+         position: absolute;
+         top:109.54px;
+         bottom: 20.25px;
+       }
+       .barry-name{
+         position: absolute;
+         top:112.58px;
+         bottom:47.63px;
+         @include coordinates_people_name();
+         @include people_names_font();
+       }
+       .msg-text-2{
+         position: absolute;
+         top:123.52px;
+         bottom: 7.47px;
+       }
+       .time-second{
+         @include time_font();
+         @include time_coordinates();
+         position: absolute;
+         top:101.42px;
+         bottom:63.85px;
+       }
+     }
+     .white-person{
+       height: 91.26px;
+       background: #fff;
+       box-shadow: 0px 5px 5px rgba(190, 200, 212, 0.2),
+       0px -5px 5px rgba(224, 224, 224, 0.15);
+      .stacey-img{
+        @include coordinates_people_img();
+        position: absolute;
+        top:200.79px;
+        bottom: 304.51px;
+      }
+       .stacey-name{
+         position: absolute;
+         top:204.85px;
+         bottom:330.88px;
+         @include coordinates_people_name();
+         @include people_names_font();
+       }
+       .msg-text-3{
+         position: absolute;
+         top:215.79px;
+         bottom: 290.72px;
+         @include msg_text_size();
+         @include msg_text_font();
+         @include msg_text_coordinates();
+       }
+       .online-2{
+         position: absolute;
+         left: 183px;
+         right: 665px;
+         top: 204.85px;
+         bottom: 345.07px;
+       }
+       .time-third{
+         @include time_font();
+         @include time_coordinates();
+         position: absolute;
+         top:191.66px;
+         bottom:349.13px;
+       }
+     }
+     .bottom-people{
+       margin-top:2px;
+       height: 283.26px;
+       background-color: #fff;
+       .michael-img{
+         @include coordinates_people_img();
+         position: absolute;
+         top:294.07px;
+         bottom: 211.23px;
+       }
+       .michael-name{
+         position: absolute;
+         top:297.12px;
+         bottom:238.61px;
+         @include coordinates_people_name();
+         @include people_names_font();
+       }
+       .msg-text-4{
+         position: absolute;
+         top:310.46px;
+         bottom: 214.27px;
+         @include msg_text_size();
+         @include msg_text_font();
+         @include msg_text_coordinates();
+       }
+       .time-fourth{
+         @include time_font();
+         @include time_coordinates();
+         position: absolute;
+         top:282.92px;
+         bottom:257.87px;
+       }
+      .johny-img{
+        @include coordinates_people_img();
+        position: absolute;
+        top:389.38px;
+        bottom: 115.29px;
+      }
+       .johny-name{
+         position: absolute;
+         top:391.41px;
+         bottom:144.31px;
+         @include coordinates_people_name();
+         @include people_names_font();
+       }
+       .msg-text-5{
+         position: absolute;
+         top:400.35px;
+         bottom: 104.16px;
+         @include msg_text_size();
+         @include msg_text_font();
+         @include msg_text_coordinates();
+       }
+       .online-3{
+         position: absolute;
+         left: 175px;
+         right: 673px;
+         top: 391.41px;
+         bottom: 158.5px;
+       }
+       .time-fifth{
+         @include time_font();
+         @include time_coordinates();
+         position: absolute;
+         top:380.26px;
+         bottom:160.53px;
+       }
+       .stacey-img-2{
+         @include coordinates_people_img();
+         position: absolute;
+         top:479.62px;
+         bottom: 25.68px;
+       }
+       .stacey-name-2{
+         position: absolute;
+         top:483.68px;
+         bottom:52.04px;
+         @include coordinates_people_name();
+         @include people_names_font();
+       }
+       .msg-text-6{
+         position: absolute;
+         top:492.62px;
+         bottom: 11.89px;
+         @include msg_text_size();
+         @include msg_text_font();
+         @include msg_text_coordinates();
+       }
+       .time-sixth{
+         @include time_font();
+         @include time_coordinates();
+         position: absolute;
+         top:471.51px;
+         bottom:69.28px;
+       }
+     }
+   }
+$width_conversation_block:557px;
+  .search-top-block{
+    position: relative;
+      width: $width_conversation_block;
+      height: 32px;
+      margin-top:-65%;
+      margin-left:35%;
+    box-shadow: 0px 5px 5px rgba(190, 200, 212, 0.2),
+    0px -5px 5px rgba(224, 224, 224, 0.15);
+
+      .linza{
+        position: absolute;
+        top:8.75px;
+        left:13.28px;
+        bottom:526.55px;
+        right: 522.72px;
+        cursor: pointer;
+      }
+      .search-text{
+        width:184px;
+        height: 21.29px;
+        position: absolute;
+        top:-5.75px;
+        left:40.28px;
+        right: 320px;
+        bottom:505.34px;
+
+        font-family: Calibri;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 18px;
+        /* or 129% */
+        letter-spacing: 0.5px;
+        color: #252F48;
+        mix-blend-mode: normal;
+        opacity: 0.2;
+      }
+    z-index: 1000;
+  }
+@mixin msg_style{
+  font-family: Calibri;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  /* or 143% */
+  color: #222428;
+}
+  .conversation-messages {
+    position: relative;
+    width: $width_conversation_block;
+    height: 448px;
+    margin-left: 35%;
+    z-index: 0;
+    .date {
+      position: absolute;
+      width: 138px;
+      height: 17.24px;
+      left: 221px;
+      right: 193px;
+      top: 10px;
+
+      font-family: Arial;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 17px;
+      letter-spacing: 0.5px;
+      color: #CACED9;
+    }
+    .conv-image {
+      position: absolute;
+      top: 123.31px;
+      left: 21px;
+      bottom: 249.07px;
+      right: 496px;
+    }
+    .msg-left {
+      position: absolute;
+      top: 143.63px;
+      left: 54.5px;
+      bottom: 346.46px;
+      right: 474.64px;
+    }
+    .rectangle-msg {
+      width: 300px;
+      height: 60px;
+      position: relative;
+      top: 99px;
+      left: 68px;
+      bottom: 348px;
+      right: 185px;
+
+      background: #F7F9FC;
+      border-radius: 5px;
+      .rectangle-msg-text {
+        width: 219px;
+        height: 35px;
+        position: absolute;
+        top: 1px;
+        left: 14.4px;
+        bottom: 12.61px;
+        right: 67px;
+        @include msg_style();
+      }
+      .time-msg-1 {
+        position: absolute;
+        left: 256px;
+        bottom: 12.21px;
+        top: 32.2px;
+        @include time_font();
+      }
+    }
+    .msg-right {
+      position: absolute;
+      top: 210.57px;
+      left: 496.64px;
+      bottom: 282px;
+      right: 32px;
+    }
+    .rectangle-msg-2 {
+      width: 300px;
+      height: 44.61px;
+      position: relative;
+      top: 120.37px;
+      left: 207px;
+      bottom: 285.02px;
+      right: 46px;
+
+      background: #F7F9FC;
+      border-radius: 5px;
+      .rectangle-msg-text-2 {
+        width: 219px;
+        height: 35px;
+        position: absolute;
+        top: 1px;
+        left: 14.4px;
+        bottom: 12.61px;
+        right: 67px;
+        @include msg_style();
+      }
+      .time-msg-2 {
+        position: absolute;
+        left: 256px;
+        bottom: 12.21px;
+        top: 17.2px;
+        @include time_font();
+      }
+    }
+    .line {
+      position: absolute;
+      top: 6px;
+      left: 539px;
+      right: 6px;
+    }
+    .line-2 {
+      position: absolute;
+      top: 305.49px;
+      left: 540px;
+      right: 7px;
+      cursor: pointer;
+    }
+    .conv-image-2 {
+      position: absolute;
+      top: 316.31px;
+      left: 21px;
+      bottom: 155.13px;
+      right: 496px;
+    }
+    .rectangle-msg-3 {
+      width: 300px;
+      height: 100px;
+      position: relative;
+      top: 145px;
+      left: 68px;
+      bottom: 165px;
+      right: 185px;
+
+      background: #F7F9FC;
+      border-radius: 5px;
+      .rectangle-msg-text-3 {
+        width: 219px;
+        height: 35px;
+        position: absolute;
+        top: 1px;
+        left: 13px;
+        bottom: 12.61px;
+        right: 57px;
+        @include msg_style();
+      }
+      .time-msg-3 {
+        position: absolute;
+        left: 256px;
+        bottom: 12.21px;
+        top: 85.56px;
+        @include time_font();
+      }
+    }
+    .msg-right-2 {
+      position: absolute;
+      top: 409.57px;
+      left: 496.64px;
+      bottom: 80.04px;
+      right: 41px;
+    }
+    .rectangle-msg-4 {
+      width: 300px;
+      height: 61.85px;
+      position: relative;
+      top: 158.37px;
+      left: 207px;
+      bottom: 82.84px;
+      right: 55px;
+
+      background: #F7F9FC;
+      border-radius: 5px;
+      .rectangle-msg-text-4 {
+        width: 233px;
+        height: 35px;
+        position: absolute;
+        top: 1px;
+        left: 16px;
+        bottom: 13.59px;
+        right: 51px;
+        @include msg_style();
+      }
+      .time-msg-4 {
+        position: absolute;
+        left: 257px;
+        bottom: 12.21px;
+        top: 37.52px;
+        @include time_font();
+      }
+    }
+    .typing-message{
+      width:$width_conversation_block;
+      height: 61px;
+      box-shadow: 0px 0px 20px
+      rgba(153, 163, 174, 0.146541);
+      position: relative;
+      top:195px;
+      .write-a-message{
+        width: 184px;
+        height: 21.29px;
+        position: absolute;
+        top:5.38px;
+        left:31px;
+        bottom:18.32px;
+        right: 338px;
+
+        font-family: Calibri;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 18px;
+        /* or 129% */
+        letter-spacing: 0.5px;
+        color: #252F48;
+        mix-blend-mode: normal;
+        opacity: 0.2;
+      }
+      .smile{
+        position: absolute;
+        top:19.77px;
+        left:404.86px;
+        bottom:18.32px;
+        right: 130px;
+        cursor: pointer;
+      }
+      .clip{
+        position: absolute;
+        top:19.77px;
+        left:447px;
+        bottom:18.32px;
+        right: 86px;
+        cursor: pointer;
+      }
+      .white-rectangle{
+          position: absolute;
+          top:-3px;
+          left:485px;
+          bottom:11.5px;
+          right: 20px;
+          cursor: pointer;
+        }
+      .send{
+        position: absolute;
+        top:18.87px;
+        left:507px;
+        bottom:19.9px;
+        right: 20px;
+        cursor: pointer;
+      }
+    }
+
+  }
+
+
+ }
+
