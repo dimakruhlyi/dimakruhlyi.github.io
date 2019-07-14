@@ -297,6 +297,33 @@ footer{
     font-size: 29px;
     margin-top:20px;
     color: #000;
+    a{
+      font-size: 20px;
+
+    }
+    a:hover{
+      font-size: 20px;
+      color:#000;
+      text-decoration: none;
+    }
+  }
+  .invest-button{
+    height: 40px;
+    width:150px;
+    border:3px solid black;
+    margin:0 auto;
+    border-radius:50px;
+    a{
+      margin-bottom: 20px;
+    }
+  }
+  .invest-button:hover{
+    cursor: pointer;
+    background: #ff0;
+  }
+  a{
+    text-decoration: none;
+    color:#000;
   }
 }
 #hide-block{
