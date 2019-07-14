@@ -276,9 +276,14 @@ footer{
   font-style: italic;
   font-size: 30px;
   color: #fff;
+  cursor: pointer;
   a{
     color:#fff;
   }
+  border:none;
+}
+.see-more:hover{
+  color:red;
 }
 .download-summary {
   background: #D3CCE3;  /* fallback for old browsers */
@@ -293,4 +298,13 @@ footer{
     margin-top:20px;
     color: #000;
   }
+}
+#hide-block{
+  display: none;
+
+}
+.block-black-row{
+  width:100%;
+  height: 70px;
+  background: #000;
 }

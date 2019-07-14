@@ -49,6 +49,10 @@ $('[data-toggle="modal"]').on('click', function (e) {
 
 
 
-
-
-
+function viewDiv(){
+    document.getElementById("hide-block").style.display = "block";
+    document.getElementById("hide-block").style.marginTop = "-130px";
+};
+function hideButton(){
+    document.getElementById("see-more").style.visibility = "hidden";
+};
