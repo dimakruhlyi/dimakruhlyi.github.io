@@ -33,6 +33,9 @@
             $('.slider').bxSlider();
         });
     </script>
+    <script src="js/jquery-1.10.2.min.js"></script>
+    <script src="js/lightbox-2.6.min.js"></script>
+    <link href="css/lightbox.css" rel="stylesheet" />
 </head>
 <body>
     <header>
@@ -67,7 +70,8 @@
     <div align="center" class="zagl" id="about-header"> <span>About me</span></div>
     <div class="row about-me">
         <div class="col-md-2 col-sm-2"></div>
-        <div class="col-sm-8 col-md-7 col-lg-4 photo-me text-center"><img src="img/myphoto.png" alt="My photo" ></div>
+        <div class="col-sm-8 col-md-7 col-lg-4 photo-me text-center"><a href="img/myphoto.png" data-lightbox="image-group" title="My photo">
+            <img src="img/myphoto.png" alt="My photo" ></a></div>
         <div class="col-sm-2 col-lg-1"></div>
         <div class="col-sm-2 col-lg-1"></div>
         <div class="col-sm-8 col-md-7 col-lg-4  text-me"> <h3 align="center">Dima Kruhlyi, 19 y.o. </h3>
@@ -126,7 +130,8 @@
            <div class="col-md-2 col-sm-2"></div>
            <div class="col-sm-8 col-md-7 col-lg-4 text-center port-bckg">
                <div class="block-element">
-                   <img src="img/portfolio/webdesign.png" alt="WebDesign" width = "100%" height="300px"><br>
+                   <a href="img/portfolio/webdesign.png" data-lightbox="image-group" title="Web Design Mockup">
+                       <img src="img/portfolio/webdesign.png" alt="WebDesign" width = "100%" height="300px"></a><br>
                   This mockup was created with Bootstrap and JQuery. It's adaptive on any screen and responsive.
                    <br>
                    <div class="invest-button "><a href="portfolio/webdesign/index.html" target="_blank">Investigate</a></div>
@@ -137,7 +142,8 @@
            <div class="col-sm-2 col-lg-1 port-bckg" id="block-black-2"></div>
            <div class="col-sm-8 col-md-7 col-lg-4  text-me port-bckg">
                <div class="block-element bottom">
-                   <img src="img/portfolio/snapfixx.png" alt="SNAPFIXX" width = "100%" height="300px"><br>
+                   <a href="img/portfolio/snapfixx.png" data-lightbox="image-group" title="SnapFixx Mockup">
+                       <img src="img/portfolio/snapfixx.png" alt="SNAPFIXX" width = "100%" height="300px"></a><br>
                    This mockup was created with flex-box. Also I used preprocessor SASS. It's adaptive on screen with resolution 375px and more also it's responsive.
                    <br>
                    <div class="invest-button "><a href="portfolio/snapfixx/index.html" target="_blank">&nbsp;&nbsp;&nbsp;Investigate</a></div>
@@ -148,10 +154,13 @@
            <div class="col-md-2 col-sm-2"></div>
            <div class="col-sm-8 col-md-7 col-lg-4 text-center port-bckg">
                <div class="block-element">
-                  <div class="slider">
-                      <img src="img/portfolio/php_prj.png" alt="PHP project" width = "100%" height="300px">
-                      <img src="img/portfolio/admin.png" alt="PHP project" width = "100%" height="300px">
-                  </div>
+                   <a href="img/portfolio/php_prj.png" data-lightbox="image-group" title="Settlements Population Control (User Interface)">
+                       <a href="img/portfolio/admin.png" data-lightbox="image-group" title="Settlements Population Control (Admin Interface)">
+                   <div class="slider">
+                          <img src="img/portfolio/php_prj.png" alt="PHP project" width = "100%" height="300px">
+
+                          <img src="img/portfolio/admin.png" alt="PHP project" width = "100%" height="300px">
+                   </div></a></a>
                    <div class="to-top">
                        This 'project' was created on PHP. It includes user and administrator interfaces and connected db.
                        <div class="invest-button "><a href="https://github.com/dimakruhlyi/SettlementsPopulationControl" target="_blank">Investigate</a></div>
@@ -163,7 +172,8 @@
            <div class="col-sm-2 col-lg-1 port-bckg" id="block-black-4"></div>
            <div class="col-sm-8 col-md-7 col-lg-4 text-center text-me port-bckg">
                <div class="block-element bottom">
-                   <img src="img/portfolio/cafe_rhino.png" alt="Cafe Rhino" width = "100%" height="300px"><br>
+                   <a href="img/portfolio/cafe_rhino.png" data-lightbox="image-group" title="Cafe Rhino">
+                       <img src="img/portfolio/cafe_rhino.png" alt="Cafe Rhino" width = "100%" height="300px"></a><br>
                    This page was created with Bootstrap and JQuery. It's just only page with 'interesting' functional.
                    <br>
                    <div class="invest-button "><a href="portfolio/cafe_rhino/index.html" target="_blank">&nbsp;&nbsp;&nbsp;Investigate</a></div>
@@ -182,7 +192,8 @@
             <div class="col-md-2 col-sm-2"></div>
             <div class="col-sm-8 col-md-7 col-lg-4 text-center port-bckg">
                 <div class="block-element">
-                    <img src="img/portfolio/messenger.png" alt="Messenger" width = "100%" height="300px"><br>
+                    <a href="img/portfolio/messenger.png" data-lightbox="image-group" title="Messenger">
+                        <img src="img/portfolio/messenger.png" alt="Messenger" width = "100%" height="300px"></a><br>
                   The simplest mockup of 'messenger' page without any functional. Was created with just position 'relative' -> 'absolute'. Responsive but isn't adaptive.
                     <br>
                     <div class="invest-button "><a href="portfolio/massenger/index.html" target="_blank">Investigate</a></div>
@@ -193,7 +204,8 @@
             <div class="col-sm-2 col-lg-1 port-bckg" id="block-black-6"></div>
             <div class="col-sm-8 col-md-7 col-lg-4 text-center text-me port-bckg">
                 <div class="block-element bottom">
-                    <img src="img/portfolio/legal.png" alt="Legal Liberty" width = "100%" height="300px"><br>
+                    <a href="img/portfolio/legal.png" data-lightbox="image-group" title="Legal Liberty">
+                        <img src="img/portfolio/legal.png" alt="Legal Liberty" width = "100%" height="300px"></a><br>
                     My first mockup. It's not responsive and almost not adaptive. But I want to show it because it's my first work. I used Grid layout here.
                     <br>
                     <div class="invest-button "><a href="portfolio/legal_liberty/index.html" target="_blank">&nbsp;&nbsp;&nbsp;Investigate</a></div>
@@ -244,6 +256,7 @@
     <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
 
 </body>
 </html>
